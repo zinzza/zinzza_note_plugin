@@ -1,0 +1,10 @@
+{
+  "id": "notebooks-sync",
+  "name": "NoteBooks Sync",
+  "version": "0.2.0",
+  "minAppVersion": "1.5.0",
+  "description": "Sync a vault folder with a NoteBooks note: real-time co-editing of open files, background sync for the rest. Sends note content to the NoteBooks server you configure.",
+  "author": "NoteBooks",
+  "authorUrl": "https://github.com/zinzza/NoteBooks",
+  "isDesktopOnly": false
+}
