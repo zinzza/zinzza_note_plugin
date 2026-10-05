@@ -31,7 +31,7 @@ Manual installs do not update themselves; download a new zip when a new version 
 3. Choose **Link a note** and pick a note and a vault folder. To upload a whole vault as a new note, choose **(Create a new note)** and leave the folder empty.
 4. If the folder already has files, decide which side wins: **Upload vault content** replaces web memos with the same name with your files (the previous server text stays in the memo's version history), and **Overwrite with server content** replaces the files in the folder with the web content. Keep a separate copy of anything important first.
 
-How files map: folder = category, `name.md` = memo, `assets/` = attachments. Images, audio, video and PDFs anywhere in the linked folder are synced as attachments and land in the same place on other devices. `.obsidian/`, `.git/`, `.trash/` and other file types (`.canvas`, `.svg`, …) are not synced. The plugin never writes sync metadata into your files.
+How files map: folder = category, `name.md` = memo, `assets/` = attachments. Images, audio, video and PDFs anywhere in the linked folder are synced as attachments and land in the same place on other devices. `.obsidian/`, `.git/`, `.trash/` and other file types (`.canvas`, `.svg`, …) are not synced. The plugin never writes sync metadata into your files. When a category is deleted or renamed on the web, the old vault folder is moved to the trash only if it is empty; folders holding files the plugin does not track are left alone.
 
 ## Network use
 

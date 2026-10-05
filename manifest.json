@@ -1,7 +1,7 @@
 {
   "id": "notebooks-sync",
   "name": "zinzza Note Sync",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "minAppVersion": "1.5.0",
   "description": "Sync a vault folder with a note in zinzza Note: real-time co-editing of open files, background sync for the rest. Sends note content to the zinzza Note server you configure.",
   "author": "zinzza",
